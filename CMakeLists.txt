@@ -10,7 +10,7 @@ project(utils VERSION 0.1.0 LANGUAGES C)
 include(GNUInstallDirs)
 ## Package Configuration
 include(CMakePackageConfigHelpers)
-set(LIBUTILS_INCLUDE_DIR      "include/utils")
+set(LIBUTILS_INCLUDE_DIR      "include")
 set(LIBUTILS_LIBRARY_DIR      "lib")
 
 # libutils.a
